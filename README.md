@@ -55,13 +55,70 @@ SELECT COUNT(*) AS total_employees FROM Employee;
 SELECT * FROM Employee WHERE email LIKE '%.com%';
 Файл: QA-70 Nasipov Adil SQL 1.docx
 
+ ```
+
+(```)
 
 
 
+🔗 REST API Testing — Postman
 
+Инструменты: Postman, Swagger, JSON
+
+Проекты:
+
+EKDP API — импорт данных, проверка претензий и долговых уведомлений.
+
+Swagger Petstore — CRUD-тестирование модулей Pet, Store, User.
+
+Проверялось:
+
+Структура JSON
+
+Статус-коды (200, 400, 404, 500)
 
 Обработка ошибок
 
 Корректность запросов и ответов
 
 Файл: Rest api Postman.docx
+
+
+
+
+
+
+
+
+
+🤖 Selenium Auto Test
+
+Инструменты: Selenium WebDriver, Python / Java
+
+Сценарий:
+
+Открытие браузера
+
+Переход на страницу входа в систему EKDP
+
+Ввод логина и пароля
+
+Проверка успешного входа по наличию элемента на главной странице
+
+Результат:
+Тест добавлен в тестовый фреймворк и запускается автоматически для проверки стабильности авторизации после изменений в коде.
+
+Файл: Selenium Auto test.docx
+
+👨‍💻 Автор
+
+Nasipov Adil
+QA Engineer | API & UI Testing | SQL | Selenium | Postman
+📍 Казахстан
+📧 adilnasipov@gmail.com
+
+
+
+
+
+
